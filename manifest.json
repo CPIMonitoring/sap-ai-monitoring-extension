@@ -1,0 +1,15 @@
+{
+"manifest_version": 3,
+"name": "SAP Integration Monitor",
+"version": "1.0.0",
+"description": "AI-powered monitoring for SAP Integration Suite",
+"action": {
+"default_popup": "popup.html",
+"default_icon": "icons/icon.png"
+},
+"permissions": ["storage", "tabs"],
+"host_permissions": [
+"http://localhost:3000/*",
+"https://*.hana.ondemand.com/*"
+]
+}
